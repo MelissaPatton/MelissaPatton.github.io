@@ -1,0 +1,32 @@
+/* reads from top down*/
+body{
+    background-color: aqua;
+}
+h3{
+    color:blueviolet;
+}
+#header{ background-color: burlywood;
+}
+/* a dot means a class*/
+.person-head{
+    color:brown;
+}
+h1,h2,h3{
+    font-size:large;
+}
+a:visited{
+    color:gray;
+
+}
+h3{
+    color:brown
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+#skills-table {
+    border: dashed 1px;
+    text-align: center;
+}
