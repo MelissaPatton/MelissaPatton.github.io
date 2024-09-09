@@ -2,6 +2,11 @@
 body{
     background-color: aqua;
 }
+.skills-table {
+    color:gray;
+    border: dashed 5px;
+    text-align: center;
+}
 h3{
     color:blueviolet;
 }
@@ -26,7 +31,5 @@ h3{
     font-style: normal;
 }
 
-#skills-table {
-    border: dashed 1px;
-    text-align: center;
-}
+/* . is for class and # is for id*/
+/* id only works once*/
