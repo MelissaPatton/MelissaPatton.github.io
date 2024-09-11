@@ -85,7 +85,7 @@ a:visited {
 }
 
 img {
-    width: 40vh; /* Adjust width as needed */
+    width: 30vh; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure image behaves as a block element */
 }
