@@ -1,32 +1,155 @@
-/* reads from top down*/
-body{
-    background-color: white;
-}
-h3{
-    color:blueviolet;
-}
-#header{ background-color: burlywood;
-}
-/* a dot means a class*/
-.person-head{
-    color:brown;
-}
-h1,h2,h3{
-    font-size:large;
-}
-a:visited{
-    color:gray;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap');
 
+body {
+    background-color: #CBC3E3;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
-h3{
-    color:brown
-    font-family: "Pixelify Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
+
+h1, h3 {
+    color: 	 #CBC3E3;
+    font-size-adjust: calc(58vw);
+    text-align: center;
+    font-family: "Montserrat Subrayada", sans-serif;
+    font-weight: 900;
     font-style: normal;
+}
+.light {
+    color: 	 #CBC3E3;
+    font-size-adjust: calc(58vw);
+    text-align: center;
+    font-family: "Montserrat Subrayada", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.dark{
+    color: 	#360f5a;
+    font-size-adjust: calc(58vw);
+    text-align: center;
+    font-family: "Montserrat Subrayada", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.cool {
+    width: 100vw;
+    background-color: #360f5a;
+    position: fixed;
+    top: 0; /* Aligns it to the top of the viewport */
+    left: 0; /* Aligns it to the left of the viewport */
+    height: 70px; /* Set the height of the header */
+}
+.person-head {
+    color: brown;
+    
+}
+
+a:visited {
+    color: black;
 }
 
 #skills-table {
     border: dashed 1px;
     text-align: center;
+}
+
+.title {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container {
+    display: flex; /* Enable Flexbox */
+    flex-direction: row; /* Align items horizontally */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Space between items */
+    margin-top: 80px; /* Push content below the fixed header */
+    padding-bottom: 15px;
+}
+.container2 {
+    display: flex; /* Enable Flexbox */
+    flex-direction: row; /* Align items horizontally */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Align items vertically */
+}
+
+.ima {
+    display: flex; /* Enable Flexbox for child elements */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+img {
+    width: 20vw; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure image behaves as a block element */
+}
+
+p {
+    font-family: Arial;
+    color: 	#360f5a;
+    font-size: 2vw;
+    width: 15vw;
+    margin: 0; /* Remove default margin */
+
+}
+.box{
+    background-color: #360f5a;
+    width: 50vw;
+    padding: 0;
+    
+}
+.box2{
+    background-color: #765ab0;
+    width: 50vw;
+    padding: 0;
+}
+.box1{
+    display: flex;
+    background-color: #360f5a;
+    width: 50vw;
+    padding: 0;
+    height: 15vw;
+    justify-content: center;  /* Horizontal centering */
+      align-items: center;
+    
+}
+.box22{
+    display: flex;
+    background-color: #765ab0;
+    width: 50vw;
+    padding: 0;
+    height: 15vw;
+    justify-content: center;  /* Horizontal centering */
+      align-items: center;
+    
+}
+.box3{
+    display: flex;
+      justify-content: center;  /* Horizontal centering */
+      align-items: center;  
+}
+.Projects{
+    display: block;
+    width: 100vw;
+    background-color: #360f5a;
+    padding: 5px;
+    
+}
+ul{
+    text-align: center;
+}
+table{
+    padding: 10px
+}
+td{
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: Arial;
+    color: #CBC3E3;
+}
+th{
+    font-family: Arial;
+
 }
