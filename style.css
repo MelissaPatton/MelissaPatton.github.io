@@ -105,7 +105,7 @@ p {
     justify-content: center;  /* Horizontal centering */
     align-items: center;
     flex-basis: 50%;
-    height: 20vw;
+    height: 15vh;
     
     
 }
@@ -115,7 +115,7 @@ p {
     justify-content: center;  /* Horizontal centering */
       align-items: center;
     flex-basis: 50%;
-    height: 20vw;
+    height: 20vh;
 }
 .box3{
     display: flex;
