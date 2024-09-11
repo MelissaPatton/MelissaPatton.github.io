@@ -145,7 +145,6 @@ td{
 th{
     font-family: Arial;
     
-
 }
 thead th{
     color: 	 #CBC3E3;
@@ -154,4 +153,7 @@ thead th{
     font-family: "Montserrat Subrayada", sans-serif;
     font-weight: 900;
     font-style: normal;
+}
+tr{
+    font-size-adjust: calc(20vw);
 }
