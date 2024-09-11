@@ -134,6 +134,7 @@ ul{
 }
 table{
     padding: 10px
+    font-size-adjust: calc(20vw);
 }
 td{
     padding-right: 20px;
