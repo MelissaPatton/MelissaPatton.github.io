@@ -65,7 +65,7 @@ a:visited {
     align-items: center; /* Center content vertically */
 }
 
-img {
+#mel{
     width: 30vh; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure image behaves as a block element */
@@ -149,6 +149,7 @@ tr{
     margin: 0;
     width: 100vw;
     padding-right: 0;
+    
 
 }
 .container3 div:nth-child(even){
@@ -179,10 +180,17 @@ tr{
 .container3 img{
     margin: auto;
     padding-bottom: 10px;
+    width: 20vw;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure image behaves as a block element */
 
 }
 .container3 p{
-    font-size: calc(1vw + .3vh);
-    margin: auto;
-    text-align: justify;
+    max-width: fit-content;
+    width: max-content;
+    font-size: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: left;
+    display: block;
 }
