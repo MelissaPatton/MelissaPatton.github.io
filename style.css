@@ -2,8 +2,8 @@
 
 body {
     background-color: #CBC3E3;
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    margin: 0; 
+    padding: 0; 
 }
 
 h1, h3 {
@@ -17,33 +17,11 @@ h1, h3 {
 .h1head{
     margin: 0;
 }
-.light {
-    display: block;
-    color: 	 #CBC3E3;
-    font-size-adjust: calc(58vw);
-    text-align: center;
-    font-family: "Montserrat Subrayada", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    margin: auto;
-}
 
-.dark{
-    color: 	#360f5a;
-    font-size-adjust: calc(58vw);
-    text-align: center;
-    font-family: "Montserrat Subrayada", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    margin: auto;
-}
 .cool {
     width: 100vw;
     background-color: #360f5a;
-}
-.person-head {
-    color: brown;
-    
+    margin: 0;
 }
 
 a:visited {
@@ -62,6 +40,7 @@ a:visited {
 }
 
 .container {
+    width: 100vw;
     display: flex; /* Enable Flexbox */
     flex-direction: row; /* Align items horizontally */
     justify-content: center; /* Center items horizontally */
@@ -71,11 +50,13 @@ a:visited {
     padding-bottom: 15px;
 }
 .container2 {
+    width: 100vw;
     display: flex; /* Enable Flexbox */
     flex-direction: row; /* Align items horizontally */
     justify-content: center; /* Center items horizontally */
     align-items: center; /* Align items vertically */
     margin: 0;
+    padding 0;
 }
 
 .ima {
@@ -106,6 +87,8 @@ p {
     align-items: center;
     flex-basis: 50%;
     height: 25vh;
+    padding-bottom: 1.9vh;
+    padding-top: .5vh;
     
     
 }
@@ -116,6 +99,8 @@ p {
       align-items: center;
     flex-basis: 50%;
     height: 25vh;
+    padding-bottom: 1.9vh;
+    padding-top: .5vh;
 }
 .box3{
     display: flex;
@@ -148,12 +133,56 @@ th{
 }
 thead th{
     color: 	 #CBC3E3;
-    font-size-adjust: calc(58vw);
+    font-size: calc(1.8vw);
     text-align: center;
     font-family: "Montserrat Subrayada", sans-serif;
     font-weight: 900;
     font-style: normal;
 }
 tr{
-    font-size: calc(2vw);
+    font-size: calc(.9vw + .3vh);
+}
+.container3{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0;
+    width: 100vw;
+    padding-right: 0;
+
+}
+.container3 div:nth-child(even){
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #765ab0;
+    width: 25vw;
+    text-align: center;
+    font-size: calc(.9vw + .3vh);
+
+
+}
+.container3 div:nth-child(odd){
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:  #CBC3E3;
+    width: 25vw;
+    text-align: center;
+    font-size: calc(.9vw + .3vh);
+
+
+}
+.container3 h3:nth-child(odd){
+    color: #360f5a;
+    font-size: calc(1vw + .3vh);
+
+}
+.container3 img{
+    margin: auto;
+    padding-bottom: 10px;
+
+}
+.container3 p{
+    font-size: calc(1vw + .3vh);
+    margin: auto;
+    text-align: justify;
 }
