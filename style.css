@@ -8,7 +8,7 @@ body {
 
 h1, h3, h2 {
     color: 	 #CBC3E3;
-    font-size-adjust: calc(58vw);
+    font-size: calc(2vw);
     text-align: center;
     font-family: "Montserrat Subrayada", sans-serif;
     font-weight: 900;
@@ -17,12 +17,17 @@ h1, h3, h2 {
 
 .h1head{
     margin: 0;
+    font-size: calc(3vw);
 }
 
 .cool {
     width: 100vw;
     background-color: #360f5a;
     margin: 0;
+    height: 10vh;
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center; 
 }
 
 a:visited {
@@ -109,12 +114,16 @@ p {
       align-items: center;  
 }
 .Projects{
-    display: block;
+    display: flex;
     width: 100vw;
     background-color: #360f5a;
-    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 10vh;
     
 }
+
 ul{
     text-align: center;
 }
@@ -196,13 +205,18 @@ tr{
     display: block;
 }
 .box11{
-    background-color: #360f5a;
+    background-color: #CBC3E3;
     display: flexbox;
     width: 50vw;
-    text-align: center;
+    text-align: left;
     height: 30vh;
-    color:#CBC3E3;
+    color:#360f5a;
     font-family: Arial, Helvetica, sans-serif;
+    padding-right: 3vw;
+}
+.box11 h2{
+    color:#360f5a;
+    font-size: calc(2vw);;
 }
 .box2{
     background-color: #765ab0;
@@ -210,20 +224,30 @@ tr{
     width: 50vw;
     text-align: center;
     height: 30vh;
-    color: #360f5a;
+    color:#CBC3E3;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .bot h4{
-    color: #360f5a;
-    padding-left: 10vw;
+    color: #CBC3E3;
     font-family: "Montserrat Subrayada", sans-serif;
+    text-align: center;
+    word-spacing: 10vw;
 }
 .bot{
     display: flex;
+    align-items: center;       /* Center horizontally */
+    justify-content: center;
     height: 10vh;
-    background-color: #360f5a
+    background-color: #360f5a;
     margin: 0;
     padding: 0;
+    width: 100vw;
+    
+}
+li{
+    text-align: left;
+    font-size: calc(.9vw + .3vh);
+
 }
