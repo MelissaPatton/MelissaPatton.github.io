@@ -189,8 +189,23 @@ tr{
     max-width: fit-content;
     width: max-content;
     font-size: 1vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
     text-align: left;
     display: block;
 }
+.box11{
+    background-color: #360f5a;
+    display: flexbox;
+    width: 50vw;
+    text-align: center;
+    height: 20vh;
+}
+.box2{
+    background-color: #360f5a;
+    display: flexbox;
+    width: 50vw;
+    text-align: center;
+    height: 20vh;
+}
+
