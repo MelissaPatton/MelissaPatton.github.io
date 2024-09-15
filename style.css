@@ -20,7 +20,7 @@ h1, h3, h2 {
     font-size: calc(3vw);
 }
 
-.cool {
+.name {
     width: 100vw;
     background-color: #360f5a;
     margin: 0;
@@ -86,7 +86,7 @@ p {
 
 }
 
-.box1{
+.box-right{
     display: flex;
     background-color: #360f5a;
     justify-content: center;  /* Horizontal centering */
@@ -98,7 +98,7 @@ p {
     
     
 }
-.box22{
+.box-left{
     display: flex;
     background-color: #765ab0;
     justify-content: center;  /* Horizontal centering */
@@ -206,7 +206,7 @@ tr{
     text-align: left;
     display: block;
 }
-.box11{
+.outside{
     background-color: #CBC3E3;
     display: flexbox;
     width: 50vw;
@@ -220,7 +220,7 @@ tr{
     color:#360f5a;
     font-size: calc(2vw);;
 }
-.box2{
+.inside{
     background-color: #765ab0;
     display: flexbox;
     width: 50vw;
