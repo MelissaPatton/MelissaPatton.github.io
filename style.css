@@ -139,6 +139,8 @@ td{
 }
 th{
     font-family: Arial;
+    color: #360f5a;
+    font-size: calc(1.4vw);
     
 }
 thead th{
