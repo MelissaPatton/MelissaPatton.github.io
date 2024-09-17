@@ -164,7 +164,7 @@ tr{
     
 
 }
-.container3 div:nth-child(even){
+.container3 article:nth-child(even){
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #765ab0;
@@ -172,9 +172,8 @@ tr{
     text-align: center;
     font-size: calc(.9vw + .3vh);
 
-
 }
-.container3 div:nth-child(odd){
+.container3 article:nth-child(odd){
     padding-top: 10px;
     padding-bottom: 10px;
     background-color:  #CBC3E3;
